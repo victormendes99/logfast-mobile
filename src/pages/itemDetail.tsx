@@ -23,7 +23,7 @@ const ItemDetail: React.FC<ItemDetailProps> = (route, navigation) => {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/api/item", {
+      .get("https://logfast-api.herokuapp.com/api/item", {
         params: {
           item: itemId,
         },
@@ -49,7 +49,11 @@ const ItemDetail: React.FC<ItemDetailProps> = (route, navigation) => {
   } else {
     return (
       <View style={{ flex: 1, justifyContent: "space-evenly" }}>
-        <TextInputStyled label={"Código"} value={item?.id} editable={false} />
+        <TextInputStyled
+          label={"Código"}
+          value={String(item?.id)}
+          editable={false}
+        />
         <TextInputStyled
           label={"Descrição"}
           value={item?.descricao}
@@ -62,7 +66,7 @@ const ItemDetail: React.FC<ItemDetailProps> = (route, navigation) => {
         />
         <TextInputStyled
           label={"Quantidade"}
-          value={item?.estoque}
+          value={String(item?.estoque)}
           editable={false}
         />
         <TextInputStyled

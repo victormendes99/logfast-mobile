@@ -6,7 +6,7 @@ import { NavigationTheme } from "ui/themes/app-theme";
 import Index from "pages";
 import SearchItem from "pages/searchItem";
 import ItemDetail from "pages/itemDetail";
-import Logo from "@assets/logoMDias.png";
+import Logo from "@assets/logfastlogo.png";
 
 const Stack = createStackNavigator();
 

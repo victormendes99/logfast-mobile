@@ -19,7 +19,7 @@ const SearchItem: React.FC<SearchItemProps> = ({ navigation }) => {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/api/search-itens", {
+      .get("https://logfast-api.herokuapp.com/api/search-itens", {
         params: {
           item: search,
         },
