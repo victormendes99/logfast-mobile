@@ -1,0 +1,25 @@
+{
+  "files": {
+    "app.js": "/logfast-mobile/static/js/app.0ce1ad3e.chunk.js",
+    "app.js.map": "/logfast-mobile/static/js/app.0ce1ad3e.chunk.js.map",
+    "runtime~app.js": "/logfast-mobile/static/js/runtime~app.11c8fee2.js",
+    "runtime~app.js.map": "/logfast-mobile/static/js/runtime~app.11c8fee2.js.map",
+    "static/js/2.aa7ef4b8.chunk.js": "/logfast-mobile/static/js/2.aa7ef4b8.chunk.js",
+    "static/js/2.aa7ef4b8.chunk.js.map": "/logfast-mobile/static/js/2.aa7ef4b8.chunk.js.map",
+    "fonts/Feather.ttf": "/logfast-mobile/./fonts/Feather.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/logfast-mobile/./fonts/MaterialCommunityIcons.ttf",
+    "favicon-16.png": "/logfast-mobile/favicon-16.png",
+    "favicon-32.png": "/logfast-mobile/favicon-32.png",
+    "favicon.ico": "/logfast-mobile/favicon.ico",
+    "index.html": "/logfast-mobile/index.html",
+    "manifest.json": "/logfast-mobile/manifest.json",
+    "serve.json": "/logfast-mobile/serve.json",
+    "static/js/2.aa7ef4b8.chunk.js.LICENSE.txt": "/logfast-mobile/static/js/2.aa7ef4b8.chunk.js.LICENSE.txt",
+    "static/media/logfastlogo.png": "/logfast-mobile/static/media/logfastlogo.54776055.png"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.11c8fee2.js",
+    "static/js/2.aa7ef4b8.chunk.js",
+    "static/js/app.0ce1ad3e.chunk.js"
+  ]
+}
